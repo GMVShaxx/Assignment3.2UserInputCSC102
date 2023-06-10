@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- This file was created by Gage Vaughan for Assignment 3.2 in CSC102-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StringsLiveTest</title>
+    <!-- This is the Title of my File-->
+
+    <link rel="stylesheet" href="Strings2GMV.css" >
+    <!-- Allows my Code to communicate to my CSC file, making my file look nicer-->
+    <script src="StringsLiveTest.js"></script>
+    <!--Allows my code to communicate to my JavaScript file.-->
+</head>
+<body>
+    <p id="EventStatus"> Status of Secret Message Arrival </p>
+    <br>
+    <!-- this will update the user on whether their login was accepted or not-->
+
+    <form id ="eventCheck" onsubmit ="return false">
+
+        First Name: <input type="text" id = "firstName"/>
+        <br>
+        Last Name <input type="text" id = "lastName"/>
+        <br>
+        Zip Code <input type="number" id = "zipCode"/>
+        <br>
+
+        <input type = "submit" onclick = "checkCreds()"/>
+    </form>    
+<!-- This adds text boxes for the User to Input their information into to hopefully gain access to the secret message-->
+
+</body>
+</html>
